@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité de flower</title>
+<meta name="description" content="Règles de confidentialité de l'application flower.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Règles de confidentialité</h1>
+<p class="muted">Dernière mise à jour : 17 octobre 2026</p>
+
+<h2>En résumé</h2>
+<p>flower ne collecte aucune donnée. Le développeur ne reçoit, ne voit et ne stocke aucune de vos informations. Tout ce que vous saisissez reste sur vos appareils et, si vous activez la synchronisation, dans votre propre Google Drive, chiffré.</p>
+
+<h2>Données enregistrées sur l'appareil</h2>
+<p>Habitudes, journal, routines, séances de sport et réglages sont enregistrés dans une base de données locale sur l'appareil. Ils n'en sortent que si vous les exportez vous-même ou activez la synchronisation.</p>
+
+<h2>Synchronisation par Google Drive (facultative)</h2>
+<ul>
+<li>Lorsque vous la connectez, flower demande à Google une seule autorisation : <code>drive.appdata</code>. Elle donne accès uniquement à un dossier caché réservé à flower dans votre Drive, et à aucun de vos autres fichiers.</li>
+<li>Avant tout envoi, vos données sont chiffrées sur l'appareil (AES-256-GCM) avec une clé dérivée de votre phrase secrète. Ni Google ni le développeur ne peuvent les lire.</li>
+<li>Le jeton d'accès Google et la clé de chiffrement restent sur l'appareil. Ils ne sont jamais envoyés au développeur ni copiés dans le Drive.</li>
+<li>Vous pouvez arrêter la synchronisation à tout moment depuis les réglages de flower, effacer la copie du Drive, et retirer l'accès sur <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+</ul>
+<p>L'utilisation et le transfert des informations reçues des API Google respectent les <a href="https://developers.google.com/terms/api-services-user-data-policy">Règles relatives aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée. Ces informations servent uniquement à synchroniser vos données entre vos appareils. Elles ne sont ni vendues, ni partagées, ni utilisées à des fins publicitaires.</p>
+
+<h2>Mises à jour</h2>
+<p>Pour savoir si une nouvelle version existe, flower consulte la page des versions publiques sur GitHub. Cette requête ne contient aucune de vos données ; GitHub peut, comme tout site, en conserver l'adresse IP selon ses propres règles.</p>
+
+<h2>Ni publicité, ni mesure d'audience</h2>
+<p>flower ne contient ni publicité, ni outil de statistiques, ni traceur.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question, ouvrez un ticket sur <a href="https://github.com/BianchiTristan/flower-releases/issues">github.com/BianchiTristan/flower-releases</a>.</p>
+
+<footer><a href="index.html">Accueil</a> · <a href="conditions.html">Conditions d'utilisation</a></footer>
+</main>
+</body>
+</html>
