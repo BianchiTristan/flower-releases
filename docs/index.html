@@ -16,9 +16,34 @@
 <p>flower fonctionne entièrement en local, sans compte et sans serveur. Si vous le souhaitez, vous pouvez synchroniser vos appareils par <strong>votre propre Google Drive</strong> : les données y sont chiffrées sur l'appareil, avec une phrase secrète que vous seul connaissez, avant d'être envoyées.</p>
 
 <h2>Télécharger</h2>
+<p class="buttons">
+<a class="btn" href="https://github.com/BianchiTristan/flower-releases/releases/latest/download/flower-windows-setup.exe">Windows 10 / 11</a>
+<a class="btn" href="https://github.com/BianchiTristan/flower-releases/releases/latest/download/flower-android.apk">Android</a>
+<a class="btn" href="https://github.com/BianchiTristan/flower-releases/releases/latest/download/flower-linux.AppImage">Linux (AppImage)</a>
+<a class="btn" href="https://github.com/BianchiTristan/flower-releases/releases/latest/download/flower-linux.deb">Linux (.deb)</a>
+</p>
+<p class="muted">Dernière version et nouveautés : <a href="https://github.com/BianchiTristan/flower-releases/releases/latest">page des versions</a>. macOS : pas encore disponible.</p>
+
+<h2>Installer sur Windows</h2>
+<ol>
+<li>Ouvrez le fichier téléchargé <code>flower-windows-setup.exe</code>.</li>
+<li>Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong>. Cet avertissement apparaît pour les logiciels peu diffusés ; flower ne contient ni publicité ni pisteur.</li>
+<li>L'installation se fait en quelques secondes. Ensuite, flower se met à jour tout seul.</li>
+</ol>
+<p class="muted">Fermer la fenêtre garde flower dans la zone de notification, en bas à droite, pour les rappels. Pour le quitter : clic droit sur l'icône, puis « Quitter ». Ce comportement se change dans Réglages.</p>
+
+<h2>Installer sur Android</h2>
+<ol>
+<li>Téléchargez <code>flower-android.apk</code> depuis le téléphone ou la tablette.</li>
+<li>Ouvrez le fichier. Si Android demande d'autoriser l'installation depuis cette source (navigateur, gestionnaire de fichiers), acceptez puis revenez en arrière.</li>
+<li>Touchez « Installer ». Quand une nouvelle version sort, flower vous la propose ; pour des mises à jour en un geste, ajoutez ce dépôt dans <a href="https://github.com/ImranR98/Obtainium">Obtainium</a>.</li>
+</ol>
+<p class="muted">Pour la synchronisation par Google Drive, l'appareil doit avoir les services Google Play.</p>
+
+<h2>Installer sur Linux</h2>
 <ul>
-<li><strong>PC (Windows)</strong> : l'installeur <code>flower_X.Y.Z_x64-setup.exe</code> de la <a href="https://github.com/BianchiTristan/flower-releases/releases/latest">dernière version</a>.</li>
-<li><strong>Android</strong> : le fichier <code>flower-X.Y.Z-arm64.apk</code> de la même page, ou ce dépôt dans <a href="https://github.com/ImranR98/Obtainium">Obtainium</a>.</li>
+<li><strong>AppImage</strong> (toutes distributions) : rendez le fichier exécutable (<code>chmod +x flower-linux.AppImage</code>, ou Propriétés › Autoriser l'exécution), puis double-cliquez dessus.</li>
+<li><strong>.deb</strong> (Ubuntu, Debian, Mint) : double-cliquez sur le fichier, ou <code>sudo apt install ./flower-linux.deb</code>.</li>
 </ul>
 
 <footer>
