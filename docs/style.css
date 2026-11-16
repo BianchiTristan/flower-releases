@@ -9,3 +9,8 @@ p.lead, .muted { color: var(--muted); }
 a { color: var(--accent); }
 ul { padding-left: 1.2rem; }
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+.buttons { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; }
+.btn { display: inline-block; padding: .7rem 1.2rem; border-radius: .6rem; background: var(--accent); color: var(--bg); font-weight: 600; text-decoration: none; }
+.btn:hover { opacity: .9; }
+ol { padding-left: 1.4rem; }
+li { margin: .3rem 0; }
